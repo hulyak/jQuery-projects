@@ -27,7 +27,7 @@ $(".correct-answer").on("click", () => {
 });
 //button to reset the quiz and make the wrong answers reappear
 $(".reset").on("click", () => {
-  $(".wrong-answer-one").show();
-  $(".wrong-answer-two").show();
-  $(".wrong-answer-three").show();
+  $(".wrong-answer-one").toggle();
+  $(".wrong-answer-two").toggle();
+  $(".wrong-answer-three").toggle();
 });
