@@ -1,3 +1,4 @@
+// .on() method binds the event listener to a jQuery object. /callback function
 $(".menu").on("mouseenter", () => {
   $('.nav-menu').show();
 });
